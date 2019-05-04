@@ -28,8 +28,12 @@ void introducao()
 	cout << " ** C\240lculo da Lei da Fun\207\706o **\n";
 	cout << " ******************************\n\n";
 	
+	textcolor(BROWN);
+	cout << "+ Feito por: Everton Dias\n";
+	cout << "+ Produzido em: 14/4/2019\n";
+	cout << "+ Objetivo: Fazer um dos meus trabalhos de escola\n\n";
 	textcolor(WHITE);
-	cout << " <vers\706o 1.6.4> Ultra Version";
+	cout << " <vers\706o 1.6.5>";
 }
 
 void getDados(double *pontoX1, double *pontoY1, double *pontoX2, double *pontoY2)
